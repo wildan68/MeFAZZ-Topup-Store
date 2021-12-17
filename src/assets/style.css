@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    /*WARNA*/
+    --purple-light: #af68ce;
+    --purple: #8E44AD;
+    --purple-dark: rgb(100, 33, 163);
+    --white: #f9f9f9;
+    --white-light: #F2F2F2;
+    --black: #2C3E50;
+    --gray: #A7A7A7;
+    --green-light: #2ECC7150;
+    --green: #00682C;
+    --red: #a50e0e;
+    --red-light: #dd080880;
+    --yellow: #867304;
+    --yellow-light: #d6b70880;
+}
+
+* {
+    font-family: 'Exo', sans-serif;
+}
+
+body {
+    margin: 0;
+    color: var(--black);
+    background-color: var(--white-light);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: inherit;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all 0.5s linear;
+}
+
+button:hover {
+    transition: all 0.5s linear;
+}
+
+router-link {
+    transition: all 0.5s linear;
+}
+
+router-link:hover {
+    transition: all 0.5s linear;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input[type=text],
+input[type=password] {
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+}
+
+input:focus {
+    box-shadow: 0 0 5px var(--purple);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid var(--purple);
+    transition: all 0.2s linear;
+}
+
+ion-icon {
+    pointer-events: none;
+}
